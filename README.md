@@ -12,7 +12,7 @@ data, credentials, or internal runbooks belong here.
 
 ## Demo
 
-https://github.com/on-page-ai/on-page-seo-mcp/raw/main/assets/how-it-works-demo.mp4
+https://github.com/user-attachments/assets/a7533f06-df26-432d-8253-aebd4e25ae47
 
 ## Server
 
