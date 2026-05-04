@@ -12,6 +12,7 @@ scan_targets=(
   "examples"
   "metadata"
   "schemas"
+  "assets"
   ".github"
 )
 

@@ -1,8 +1,12 @@
 # On-Page.ai SEO MCP
 
+![On-Page.ai SEO MCP banner](assets/on-page-seo-mcp-hero.svg)
+
 Hosted MCP server for evidence-backed on-page SEO audits, entity-gap analysis,
 competitor coverage checks, internal-link opportunities, and page-experience
 benchmarks.
+
+[![On-Page.ai API homepage screenshot](assets/homepage-screenshot.png)](https://api.on-page.ai/)
 
 This repository is intentionally public and docs-only. The production MCP server
 is hosted by On-Page.ai; no private server source, deployment notes, customer
@@ -22,6 +26,8 @@ https://api.on-page.ai/mcp
 
 ## What It Does
 
+![On-Page.ai MCP workflow](assets/mcp-workflow.svg)
+
 On-Page.ai gives AI agents structured SEO evidence before they recommend edits.
 Instead of generic SEO advice, the agent can scan the live URL and compare it
 against the current search-result cohort for a keyword.
@@ -34,6 +40,13 @@ Core workflows:
 - Benchmark page experience against top ranking competitors
 - Classify page or text topical focus
 - Return customer-safe structured reports for agent reasoning
+
+## See It In Action
+
+[![On-Page.ai how-it-works video preview](assets/how-it-works-video-preview.png)](https://api.on-page.ai/#how-it-works)
+
+The public how-it-works walkthrough shows the API and MCP flow from URL and
+keyword to evidence-backed optimization data.
 
 ## Available Tools
 
@@ -98,4 +111,3 @@ read [`SECURITY.md`](SECURITY.md) and do not include:
 - Docs: <https://api.on-page.ai/docs>
 - MCP docs: <https://api.on-page.ai/mcp/docs>
 - Contact: <team@on-page.ai>
-
