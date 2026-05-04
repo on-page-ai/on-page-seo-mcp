@@ -1,0 +1,45 @@
+{
+  "name": "On-Page.ai SEO MCP",
+  "slug": "on-page-seo",
+  "description": "Evidence-backed on-page SEO audits, entity gaps, competitor coverage, internal-link opportunities, and page-experience benchmarks for AI agents.",
+  "server_url": "https://api.on-page.ai/mcp",
+  "transport": "streamable_http",
+  "authentication": {
+    "oauth_scope": "mcp:seo",
+    "manual_auth": "Bearer API key"
+  },
+  "homepage_url": "https://api.on-page.ai",
+  "install_url": "https://api.on-page.ai/install",
+  "documentation_url": "https://api.on-page.ai/mcp/docs",
+  "pricing_url": "https://api.on-page.ai/pricing",
+  "privacy_url": "https://api.on-page.ai/privacy",
+  "terms_url": "https://api.on-page.ai/terms",
+  "categories": [
+    "SEO",
+    "Marketing",
+    "Content optimization",
+    "AI agents",
+    "Analytics"
+  ],
+  "tags": [
+    "mcp",
+    "seo",
+    "on-page-seo",
+    "content-optimization",
+    "entity-gap-analysis",
+    "internal-linking",
+    "competitor-analysis",
+    "ai-agents"
+  ],
+  "tools": [
+    "scan_page",
+    "scan_page_lite",
+    "scan_page_deep",
+    "classify_text",
+    "check_job",
+    "wait_for_job",
+    "get_job_result",
+    "check_credits"
+  ]
+}
+

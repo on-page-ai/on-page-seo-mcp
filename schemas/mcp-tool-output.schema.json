@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/on-page-ai/on-page-seo-mcp/schemas/mcp-tool-output.schema.json",
+  "title": "On-Page.ai MCP Tool Output",
+  "type": "object",
+  "description": "Public summary schema for common On-Page.ai MCP tool responses.",
+  "oneOf": [
+    {
+      "title": "Created job",
+      "required": [
+        "job_id",
+        "job_type",
+        "status",
+        "credits_reserved_millicredits",
+        "next_step",
+        "estimated_completion_note"
+      ],
+      "properties": {
+        "job_id": { "type": "string" },
+        "job_type": { "enum": ["classify", "scan"] },
+        "status": { "const": "queued" },
+        "credits_reserved_millicredits": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "next_step": { "type": "string" },
+        "estimated_completion_note": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    {
+      "title": "Job status",
+      "required": ["job_id", "job_type", "status", "result_available"],
+      "properties": {
+        "job_id": { "type": "string" },
+        "job_type": { "enum": ["classify", "scan"] },
+        "status": {
+          "enum": [
+            "queued",
+            "running",
+            "processing",
+            "completed",
+            "failed",
+            "cancelled"
+          ]
+        },
+        "progress": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "result_available": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    {
+      "title": "Credit balance",
+      "required": [
+        "available_millicredits",
+        "reserved_millicredits",
+        "route_costs_millicredits"
+      ],
+      "properties": {
+        "available_millicredits": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reserved_millicredits": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "route_costs_millicredits": {
+          "type": "object",
+          "properties": {
+            "classify": { "type": "integer", "minimum": 0 },
+            "scan_lite": { "type": "integer", "minimum": 0 },
+            "scan": { "type": "integer", "minimum": 0 },
+            "scan_deep": { "type": "integer", "minimum": 0 }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    },
+    {
+      "title": "Error",
+      "required": ["error"],
+      "properties": {
+        "error": {
+          "type": "object",
+          "required": ["code", "message"],
+          "properties": {
+            "code": { "type": "string" },
+            "message": { "type": "string" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  ]
+}
+

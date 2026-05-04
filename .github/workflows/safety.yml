@@ -1,0 +1,18 @@
+name: Public content safety
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run public-content safety check
+        run: bash scripts/check-public-content.sh
+
