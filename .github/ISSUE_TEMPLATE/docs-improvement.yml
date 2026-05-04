@@ -1,0 +1,13 @@
+name: Docs improvement
+description: Suggest a public docs, example, or directory listing improvement.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: Keep examples public-safe. Do not include credentials, private reports, or customer data.
+    validations:
+      required: true
+

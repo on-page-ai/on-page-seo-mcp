@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: mailto:hello@on-page.ai
+    about: Report security issues privately by email.
+  - name: On-Page.ai MCP docs
+    url: https://api.on-page.ai/mcp/docs
+    about: Read the hosted MCP documentation.
+
