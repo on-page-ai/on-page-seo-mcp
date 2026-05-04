@@ -15,7 +15,7 @@ Do not open issues or pull requests that include:
 To report a security issue privately, email:
 
 ```text
-hello@on-page.ai
+team@on-page.ai
 ```
 
 Use the subject line:

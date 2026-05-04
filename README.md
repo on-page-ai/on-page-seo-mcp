@@ -97,5 +97,5 @@ read [`SECURITY.md`](SECURITY.md) and do not include:
 
 - Docs: <https://api.on-page.ai/docs>
 - MCP docs: <https://api.on-page.ai/mcp/docs>
-- Contact: <hello@on-page.ai>
+- Contact: <team@on-page.ai>
 
