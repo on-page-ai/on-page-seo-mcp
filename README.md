@@ -6,11 +6,13 @@ Hosted MCP server for evidence-backed on-page SEO audits, entity-gap analysis,
 competitor coverage checks, internal-link opportunities, and page-experience
 benchmarks.
 
-[![On-Page.ai API homepage screenshot](assets/homepage-screenshot.png)](https://api.on-page.ai/)
-
 This repository is intentionally public and docs-only. The production MCP server
 is hosted by On-Page.ai; no private server source, deployment notes, customer
 data, credentials, or internal runbooks belong here.
+
+## Demo
+
+https://github.com/on-page-ai/on-page-seo-mcp/raw/main/assets/how-it-works-demo.mp4
 
 ## Server
 
@@ -41,12 +43,11 @@ Core workflows:
 - Classify page or text topical focus
 - Return customer-safe structured reports for agent reasoning
 
-## See It In Action
+## API Homepage
 
-[![On-Page.ai how-it-works video preview](assets/how-it-works-video-preview.png)](https://api.on-page.ai/#how-it-works)
+[![On-Page.ai API homepage screenshot](assets/homepage-screenshot.png)](https://api.on-page.ai/)
 
-The public how-it-works walkthrough shows the API and MCP flow from URL and
-keyword to evidence-backed optimization data.
+The public API homepage shows the product surface behind the hosted MCP server.
 
 ## Available Tools
 
