@@ -12,7 +12,7 @@ data, credentials, or internal runbooks belong here.
 
 ## Demo
 
-https://github.com/user-attachments/assets/a7533f06-df26-432d-8253-aebd4e25ae47
+https://github.com/user-attachments/assets/4b2ab1ff-b5bf-4262-a3ad-0e987a34376d
 
 ## Server
 
