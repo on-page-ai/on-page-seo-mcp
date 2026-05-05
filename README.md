@@ -6,6 +6,11 @@ Hosted MCP server for evidence-backed on-page SEO audits, entity-gap analysis,
 competitor coverage checks, internal-link opportunities, and page-experience
 benchmarks.
 
+On-Page.ai SEO MCP is a hosted Model Context Protocol server for search engine
+optimization work. It gives Codex, Claude Code, ChatGPT, and other AI agents
+access to structured SEO data for keyword research, competitor analysis, entity
+gaps, on-page audits, and search-result recommendations through one MCP server.
+
 This repository is intentionally public and docs-only. The production MCP server
 is hosted by On-Page.ai; no private server source, deployment notes, customer
 data, credentials, or internal runbooks belong here.
