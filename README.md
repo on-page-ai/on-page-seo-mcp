@@ -44,6 +44,16 @@ Core workflows:
 - Classify page or text topical focus
 - Return customer-safe structured reports for agent reasoning
 
+## Use Cases
+
+Use On-Page.ai SEO MCP as part of SEO tools and SEO workflows for AI agents. It
+helps agents review Google search results, compare SERP competitors, find entity
+gaps, improve organic visibility, and turn page-level SEO data into specific
+content recommendations.
+
+The hosted MCP server works with Codex, Claude Code, ChatGPT, and other clients
+that support MCP setup, API-key authentication, or remote server integrations.
+
 ## API Homepage
 
 [![On-Page.ai API homepage screenshot](assets/homepage-screenshot.png)](https://api.on-page.ai/)
