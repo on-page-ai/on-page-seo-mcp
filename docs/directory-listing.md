@@ -25,6 +25,12 @@ edits.
 https://api.on-page.ai/mcp
 ```
 
+## Cursor Plugin
+
+- Manifest: `.cursor-plugin/plugin.json`
+- MCP config: `mcp.json`
+- Skill: `skills/on-page-seo/SKILL.md`
+
 ## Transport
 
 Streamable HTTP
@@ -67,4 +73,3 @@ mcp:seo
 - Pricing: <https://api.on-page.ai/pricing>
 - Privacy: <https://api.on-page.ai/privacy>
 - Terms: <https://api.on-page.ai/terms>
-

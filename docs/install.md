@@ -59,7 +59,29 @@ When ChatGPT asks for the MCP server URL, use:
 https://api.on-page.ai/mcp
 ```
 
-## Cursor, Cline, VS Code, Windsurf, n8n, and API Clients
+## Cursor
+
+This repository includes Cursor directory/plugin metadata:
+
+- `.cursor-plugin/plugin.json`
+- `mcp.json`
+- `skills/on-page-seo/SKILL.md`
+
+For manual Cursor setup, add this server to Cursor's MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "on-page-seo": {
+      "url": "https://api.on-page.ai/mcp"
+    }
+  }
+}
+```
+
+If Cursor asks you to authenticate, complete the browser sign-in flow.
+
+## Cline, VS Code, Windsurf, n8n, and API Clients
 
 Use the install page for current client-specific instructions:
 
@@ -78,4 +100,3 @@ For manual clients, create an API key from the On-Page.ai dashboard:
 <https://api.on-page.ai/dashboard/mcp>
 
 OAuth-based clients may open a browser sign-in flow instead.
-

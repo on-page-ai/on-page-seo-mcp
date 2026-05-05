@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.on-page/seo",
+  "title": "On-Page.ai SEO MCP",
+  "description": "Agent-ready on-page SEO audits with entity coverage and competitor gaps.",
+  "version": "1.0.0",
+  "websiteUrl": "https://api.on-page.ai",
+  "repository": {
+    "url": "https://github.com/on-page-ai/on-page-seo-mcp",
+    "source": "github",
+    "id": "1229225529"
+  },
+  "icons": [
+    {
+      "src": "https://api.on-page.ai/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.on-page.ai/mcp"
+    }
+  ]
+}

@@ -101,8 +101,16 @@ More examples: [`examples/prompts.md`](examples/prompts.md)
 
 MCP directory metadata lives in:
 
+- [`.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json)
+- [`mcp.json`](mcp.json)
+- [`server.json`](server.json)
 - [`metadata/directory-submission.json`](metadata/directory-submission.json)
 - [`docs/directory-listing.md`](docs/directory-listing.md)
+
+Cursor plugin assets also include:
+
+- [`skills/on-page-seo/SKILL.md`](skills/on-page-seo/SKILL.md)
+- [`assets/generated/on-page-ai-logo-400.png`](assets/generated/on-page-ai-logo-400.png)
 
 ## Safety Boundary
 

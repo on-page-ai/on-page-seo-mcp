@@ -5,6 +5,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 scan_targets=(
+  ".cursor-plugin"
   "README.md"
   "CONTRIBUTING.md"
   "SECURITY.md"
@@ -13,6 +14,9 @@ scan_targets=(
   "metadata"
   "schemas"
   "assets"
+  "skills"
+  "mcp.json"
+  "server.json"
   ".github"
 )
 

@@ -1,0 +1,28 @@
+{
+  "name": "on-page-seo-mcp",
+  "displayName": "On-Page.ai SEO MCP",
+  "version": "1.0.0",
+  "description": "Hosted On-Page.ai SEO MCP server for URL and keyword audits, entity coverage, competitor gaps, and internal-link opportunities.",
+  "author": {
+    "name": "On-Page.ai",
+    "email": "team@on-page.ai"
+  },
+  "publisher": "on-page-ai",
+  "homepage": "https://api.on-page.ai/install",
+  "repository": "https://github.com/on-page-ai/on-page-seo-mcp",
+  "license": "MIT",
+  "logo": "assets/generated/on-page-ai-logo-400.png",
+  "keywords": [
+    "mcp",
+    "seo",
+    "on-page-seo",
+    "content-optimization",
+    "ai-agents",
+    "competitor-analysis",
+    "internal-linking"
+  ],
+  "category": "marketing",
+  "tags": ["mcp", "seo", "marketing", "content", "analytics"],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}

@@ -1,0 +1,7 @@
+name: On-Page.ai SEO MCP
+version: 1.0.0
+schema: v1
+mcpServers:
+  - name: on-page-seo
+    type: streamable-http
+    url: https://api.on-page.ai/mcp

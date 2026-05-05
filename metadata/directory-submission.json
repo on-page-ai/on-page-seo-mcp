@@ -11,6 +11,9 @@
   "homepage_url": "https://api.on-page.ai",
   "install_url": "https://api.on-page.ai/install",
   "documentation_url": "https://api.on-page.ai/mcp/docs",
+  "repository_url": "https://github.com/on-page-ai/on-page-seo-mcp",
+  "cursor_plugin_manifest": ".cursor-plugin/plugin.json",
+  "mcp_config": "mcp.json",
   "pricing_url": "https://api.on-page.ai/pricing",
   "privacy_url": "https://api.on-page.ai/privacy",
   "terms_url": "https://api.on-page.ai/terms",
@@ -42,4 +45,3 @@
     "check_credits"
   ]
 }
-
