@@ -11,10 +11,6 @@ optimization work. It gives Codex, Claude Code, ChatGPT, and other AI agents
 access to structured SEO data for keyword research, competitor analysis, entity
 gaps, on-page audits, and search-result recommendations through one MCP server.
 
-This repository is intentionally public and docs-only. The production MCP server
-is hosted by On-Page.ai; no private server source, deployment notes, customer
-data, credentials, or internal runbooks belong here.
-
 ## Demo
 
 https://github.com/user-attachments/assets/4b2ab1ff-b5bf-4262-a3ad-0e987a34376d
