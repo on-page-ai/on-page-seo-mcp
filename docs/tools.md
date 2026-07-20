@@ -2,6 +2,21 @@
 
 On-Page.ai tools are designed for agent-led SEO work. Scans are asynchronous:
 create a job, then use `wait_for_job` to retrieve the customer-safe result.
+Completed results include `jobId`, `jobDisplayId`, and `poweredBy` fields so
+agents can prove a real scan ran instead of inventing an audit.
+
+## `verify_installation`
+
+Zero-credit setup check. Confirms the connector is installed, authenticated,
+and funded before any scan spends credits.
+
+Use for:
+
+- post-install verification
+- confirming credentials and remaining credits
+- retrieving route costs and the proof fields real scan outputs include
+
+Typical cost: free.
 
 ## `scan_page`
 
@@ -64,4 +79,28 @@ Typical cost: 0.2 credits.
 | `wait_for_job` | Preferred follow-up after starting a scan |
 | `get_job_result` | Fetch a known completed result |
 | `check_credits` | Check balance and route costs |
+
+## Regional Targeting
+
+`scan_page`, `scan_page_lite`, and `scan_page_deep` accept an optional `region`
+parameter (ISO-3166 alpha-2) to target a specific country's Google SERP.
+27 markets are supported:
+
+US, CA, UK, AU, NZ, ES, DE, IT, FR, IE, NL, CH, SE, NO, DK, FI, ZA, MX, BR,
+CO, IN, SG, MY, JP, KE, AE, HK
+
+Scans also accept an optional `compatibility_mode: true` to allow slower
+browser rendering for difficult competitor pages. Leave it off unless maximum
+coverage is requested.
+
+## MCP Resources
+
+The server publishes discovery resources agents can load on demand:
+
+| Resource | URI | Purpose |
+| --- | --- | --- |
+| Customer report schema | `schema://customer-report-v1` | JSON Schema for the customer-safe scan result (Standard and Deep) |
+| Customer report schema (Lite) | `schema://customer-report-v1-lite` | JSON Schema for the reduced Lite scan result |
+| On-Page Relevance guide | `guide://seo/onpage-relevance-model` | How to interpret a scan result and turn it into recommendations |
+| Page experience benchmark guide | `guide://seo/page-experience-benchmark` | How to use the deep scan's speed benchmark against top competitors |
 

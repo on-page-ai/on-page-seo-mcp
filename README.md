@@ -64,6 +64,7 @@ The public API homepage shows the product surface behind the hosted MCP server.
 
 | Tool | Use |
 | --- | --- |
+| `verify_installation` | Zero-credit check that the server is connected, authenticated, and funded |
 | `scan_page` | Default full SEO audit for URL + keyword recommendations |
 | `scan_page_lite` | Faster entity and competitor-cohort scan |
 | `scan_page_deep` | Deeper competitor analysis and optional page-experience benchmark |
@@ -72,6 +73,10 @@ The public API homepage shows the product surface behind the hosted MCP server.
 | `wait_for_job` | Wait for async job completion |
 | `get_job_result` | Fetch a completed job result |
 | `check_credits` | Check available credits and route costs |
+
+Scans can target 27 country-specific Google SERPs with the `region` parameter,
+and the server publishes report schemas and interpretation guides as MCP
+resources. Details: [`docs/tools.md`](docs/tools.md).
 
 ## Quick Install
 
@@ -130,4 +135,5 @@ read [`SECURITY.md`](SECURITY.md) and do not include:
 
 - Docs: <https://api.on-page.ai/docs>
 - MCP docs: <https://api.on-page.ai/mcp/docs>
+- Changes: [`CHANGELOG.md`](CHANGELOG.md)
 - Contact: <team@on-page.ai>
